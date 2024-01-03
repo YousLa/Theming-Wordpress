@@ -1,0 +1,73 @@
+header {
+  background-color: #27352A;
+  height: 300px;
+  padding: 20px 17.5%;
+  display: flex;
+  justify-content: space-between;
+}
+header > .left {
+  display: flex;
+  height: 50px;
+}
+header > .left > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+header > .left > div > span {
+  color: #FFF;
+}
+header > .left > div > span:first-child {
+  color: #82C46C;
+}
+header > .right {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+header > .right > div {
+  height: 30px;
+  width: 30px;
+  transform: scaleX(-1);
+  cursor: pointer;
+  position: relative;
+}
+header > .right > div:hover > div {
+  background-color: #82C46C;
+}
+header > .right > div:hover > nav {
+  display: block;
+}
+header > .right > div > div {
+  background-color: #FFF;
+  height: 3px;
+  margin-bottom: 5px;
+}
+header > .right > div > div:nth-child(1) {
+  width: 33.3333333333%;
+}
+header > .right > div > div:nth-child(2) {
+  width: 66.6666666667%;
+}
+header > .right > div > div:nth-child(3) {
+  margin-bottom: unset;
+}
+header > .right > div > nav {
+  position: absolute;
+  transform: scaleX(-1);
+  width: 200px;
+}
+header > .right > div > nav > ul {
+  list-style: none;
+}
+header > .right > div > nav > ul > li > a {
+  color: #0C0F0C;
+  background-color: #FFF;
+  padding: 10px 20px;
+  border: 1px dotted lightgray;
+  display: block;
+}
+
+/*# sourceMappingURL=home.css.map */
