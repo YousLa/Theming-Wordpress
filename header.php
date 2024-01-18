@@ -19,9 +19,9 @@
             <?php the_custom_logo() ?>
             <!-- <img src="<?= THEME_URI ?>/assets/images/logo.png" alt=""> -->
             <div>
-                <span>L'ACTIONNARIAT</span>
-                <span>DES ENTREPRISES</span>
-                <span>WALONNES</span>
+                <span><?= __('SLOGAN_LINE_1', 'khun') ?></span>
+                <span><?= __('SLOGAN_LINE_2', 'khun') ?></span>
+                <span><?= __('SLOGAN_LINE_3', 'khun') ?></span>
             </div>
         </div>
 

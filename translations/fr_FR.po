@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-01-18 15:58+0100\n"
+"PO-Revision-Date: 2024-01-18 15:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: front-page.php:7
+msgid "LAST_NEWS"
+msgstr "Nos dernières actualités"
+
+#: front-page.php:8
+msgid "ALL_NEWS"
+msgstr "Voir toutes les actualités"
+
+#: header.php:22
+msgid "SLOGAN_LINE_1"
+msgstr "L'actionnariat"
+
+#: header.php:23
+msgid "SLOGAN_LINE_2"
+msgstr "des entreprises"
+
+#: header.php:24
+msgid "SLOGAN_LINE_3"
+msgstr "wallones"

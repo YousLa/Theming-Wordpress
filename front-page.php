@@ -4,8 +4,8 @@
 <main>
     <section class="actu">
         <div class="top">
-            <h1>Nos dernières actualités</h1>
-            <a href="/articles"><span class="fa fa-chevron-right"></span> Voir toutes les actualités</a>
+            <h1><?= __('LAST_NEWS', 'khun') ?></h1>
+            <a href="/articles"><span class="fa fa-chevron-right"></span><?= __('ALL_NEWS', 'khun') ?></a>
         </div>
         <!--  -->
         <div class="articles">
