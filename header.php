@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!-- inclure la langue de wordpress -->
 <html <?php language_attributes(); ?>>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <?php wp_head() ?>
     <!-- <link rel="stylesheet" href="<?= THEME_URI ?>/assets/css/home.css"> -->
 </head>
+
 <body>
     <header>
         <div class="left">
@@ -17,9 +19,9 @@
             <?php the_custom_logo() ?>
             <!-- <img src="<?= THEME_URI ?>/assets/images/logo.png" alt=""> -->
             <div>
-                <span>L'actionnariat</span>
-                <span>des entreprises</span>
-                <span>wallones</span>
+                <span>L'ACTIONNARIAT</span>
+                <span>DES ENTREPRISES</span>
+                <span>WALONNES</span>
             </div>
         </div>
 

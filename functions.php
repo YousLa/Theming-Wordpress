@@ -55,10 +55,20 @@ add_action('wp_enqueue_scripts', function () {
     }
 });
 
+// Permet de modifier le nombre de mots des resumées d'article ici
 add_filter('excerpt_length', function () {
     return 25;
 });
 
+// add_filter('excerpt_length', fn () => 25);
+
+// permet de modifier le comportement d'un fonction wordpress pour faire autre chose
+// Ici on rajoute des éléments avant et après chaque titre d'article
+/*
+add_filter('the_title', function ($previous) {
+    return '☼' . $previous . '♥';
+});
+*/
 
 function getLastNews()
 {

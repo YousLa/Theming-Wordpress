@@ -28,23 +28,13 @@ main .actu .top a {
   text-decoration: none;
 }
 
-.article_card {
-  border: solid 1px black;
-  width: 391px;
-  height: 609px;
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-.article_date {
-  color: #82C46C;
-  font-size: 18px;
-}
-.article_title {
-  font-size: 30px;
-  font-weight: bold;
-  color: #27352A;
-}
-.article_content {
-  font-size: 18px;
-  color: #0C0F0C;
+.articles > * {
+  width: calc((100% - 40px) / 3);
 }
 
 /*# sourceMappingURL=home.css.map */

@@ -126,4 +126,51 @@ footer ul a {
   color: #0C0F0C;
 }
 
+main .article_card {
+  box-shadow: 0 5px 5px 0 lightgrey;
+  aspect-ratio: 2/3;
+  position: relative;
+}
+main .article_image {
+  height: 40%;
+  overflow: hidden;
+}
+main .article_image > img {
+  width: 100%;
+  height: auto;
+}
+main .article_date {
+  padding: 5px 20px;
+  color: #82C46C;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+main .article_title {
+  padding: 10px 20px 0 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #27352A;
+}
+main .article_content {
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  color: #0C0F0C;
+}
+main .article_link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+main .article_link > a {
+  color: #82C46C;
+  text-decoration: none;
+  vertical-align: middle;
+}
+main .article_link > a i {
+  transition: transform 0.3s ease;
+}
+main .article_link > a:hover i {
+  transform: translateX(5px);
+}
+
 /*# sourceMappingURL=main.css.map */
