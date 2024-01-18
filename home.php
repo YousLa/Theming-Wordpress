@@ -1,2 +1,1 @@
-<!-- Page des articles -->
-<p>home</p>
+<p>Home.php</p>
