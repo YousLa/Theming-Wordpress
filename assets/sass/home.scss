@@ -6,14 +6,17 @@ header {
 
 main {
     padding: 20px $x-padding;
+
     .actu {
         .top {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             h1 {
                 text-transform: uppercase;
                 color: $green;
+
                 &::after {
                     content: '';
                     display: block;
@@ -22,12 +25,38 @@ main {
                     background: $green;
                 }
             }
+
             a {
                 font-weight: bold;
                 color: $black;
                 text-transform: uppercase;
                 text-decoration: none;
             }
-        }  
+        }
+    }
+}
+
+.article {
+
+    &_card {
+        border: solid 1px black;
+        width: 391px;
+        height: 609px;
+    }
+
+    &_date {
+        color: $green;
+        font-size: 18px;
+    }
+
+    &_title {
+        font-size: 30px;
+        font-weight: bold;
+        color: $forest;
+    }
+
+    &_content {
+        font-size: 18px;
+        color: $black;
     }
 }
