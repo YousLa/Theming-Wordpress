@@ -43,9 +43,13 @@ add_action('wp_enqueue_scripts', function () {
         wp_enqueue_style('home_css', THEME_URI . '/assets/css/home.css', ['main_css']);
     }
 
+    if (is_page()) {
+        wp_enqueue_style('page_css', THEME_URI . '/assets/css/page.css', ['main_css']);
+    }
+
     // si c'est la page de contact
     if (is_page('contact')) {
-        /*... */
+        wp_enqueue_style('contact_css', THEME_URI . '/assets/css/contact.css', ['page_css']);
     }
 
     if (is_page('react')) {
