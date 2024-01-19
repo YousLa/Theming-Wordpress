@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-19 11:00+0100\n"
-"PO-Revision-Date: 2024-01-19 11:01+0100\n"
+"POT-Creation-Date: 2024-01-19 13:59+0100\n"
+"PO-Revision-Date: 2024-01-19 13:59+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -34,10 +34,18 @@ msgstr "des entreprises"
 msgid "SLOGAN_LINE_3"
 msgstr "wallones"
 
-#: home.php:5
+#: home.php:10
 msgid "NEWS"
 msgstr "Actualités"
 
-#: home.php:7
+#: home.php:12
 msgid "FIND_NEWS_PLACEHOLDER"
 msgstr "Trouver une actualité"
+
+#: home.php:37
+msgid "PREVIOUS_PAGE"
+msgstr "Page précédente"
+
+#: home.php:50
+msgid "NEXT_PAGE"
+msgstr "Page suivante"
