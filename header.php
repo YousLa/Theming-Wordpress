@@ -48,6 +48,7 @@
                 <!-- <span><?php get_locale()[0] . get_locale()[1] ?></span> -->
                 <!-- <span><?= explode('_', get_locale())[0] ?></span> -->
                 <span><?= preg_replace('/_.+/', '', get_locale()) ?> <i class="fa fa-caret-down"></i></span>
+                <!-- <span><?= substr(get_locale(), 0, 2) ?> <i class="fa fa-caret-down"></i></span> -->
                 <nav>
                     <ul>
                         <?php pll_the_languages(['show_flags' => true]) ?>
