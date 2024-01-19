@@ -1,5 +1,38 @@
 @import 'variables';
 
+.search {
+    background-color: $green;
+
+    &_content {
+        height: 80px;
+        padding: 0 $x-padding;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        form {
+            input {
+                // width: 100%;
+                position: relative;
+                width: 450px;
+                border-radius: 5px;
+                border-style: solid;
+                padding: 5px 25px 5px 5px;
+                transform: translate(35px);
+                z-index: 1;
+            }
+
+            button {
+                position: absolute;
+                background-color: transparent;
+                border: unset;
+                z-index: 2;
+                margin: 6px;
+            }
+        }
+    }
+}
+
 main {
     padding: 20px $x-padding;
 

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-01-18 16:02+0100\n"
-"PO-Revision-Date: 2024-01-18 16:03+0100\n"
+"POT-Creation-Date: 2024-01-19 11:02+0100\n"
+"PO-Revision-Date: 2024-01-19 11:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -33,3 +33,11 @@ msgstr "of Walloon"
 #: header.php:24
 msgid "SLOGAN_LINE_3"
 msgstr "Companies"
+
+#: home.php:5
+msgid "NEWS"
+msgstr "News"
+
+#: home.php:7
+msgid "FIND_NEWS_PLACEHOLDER"
+msgstr "Find a news"

@@ -1,3 +1,30 @@
+.search {
+  background-color: #82C46C;
+}
+.search_content {
+  height: 80px;
+  padding: 0 17.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_content form input {
+  position: relative;
+  width: 450px;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 5px 25px 5px 5px;
+  transform: translate(35px);
+  z-index: 1;
+}
+.search_content form button {
+  position: absolute;
+  background-color: transparent;
+  border: unset;
+  z-index: 2;
+  margin: 6px;
+}
+
 main {
   padding: 20px 17.5%;
 }
